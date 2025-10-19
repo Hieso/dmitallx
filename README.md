@@ -12,10 +12,10 @@
 Hi, this is my first Python library.
 
 ####Functions:
-Clear the terminal (clear)
-Find the greatest common divisor of numbers (nod)
-Find the least common multiple of numbers (nok)
-Install libraries (importlibs)
+1. Clear the terminal (clear)
+2. Find the greatest common divisor of numbers (nod)
+3. Find the least common multiple of numbers (nok)
+4. Install libraries (importlibs)
 
 ## Installation
 
