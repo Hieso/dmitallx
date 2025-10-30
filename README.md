@@ -8,10 +8,10 @@
 3. Найти наименьшее общее кратное чисел(nok)
 4. Установка библиотек(importlibs)
 
-###EN
+### EN
 Hi, this is my first Python library.
 
-####Functions:
+#### Functions:
 1. Clear the terminal (clear)
 2. Find the greatest common divisor of numbers (nod)
 3. Find the least common multiple of numbers (nok)
