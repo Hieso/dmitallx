@@ -1,19 +1,22 @@
 import os
 import importlib.util
 import math
-import functools
+import operator
 from rich.progress import Progress
+
 def clear():
     os.system("cls" if os.name == 'nt' else "clear")
 
 def nod(numbers):
-    return functools.reduce(math.gcd, numbers)
-
-def lcm(a, b):
-    return abs(a * b) // math.gcd(a, b)
+    return reduce(operator.gcd, numbers)
 
 def nok(numbers):
-    return functools.reduce(lcm, numbers)
+    return reduce(lambda a, b: abs(a * b) // operator.gcd(a, b), numbers)
+
+def average(scores):
+    if not scores:
+        return 0
+    return sum(scores) / len(scores)
 
 def importlibs(libs):
     with Progress() as progress:
