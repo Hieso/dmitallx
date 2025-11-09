@@ -1,4 +1,4 @@
-# Dmitallx
+# Dmitlibx
 
 ### RU
 Привет, это моя первая библиотека для Python.
