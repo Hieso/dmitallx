@@ -20,4 +20,4 @@ Hi, this is my first Python library.
 ## Installation
 
 ```sh
-pip install dmitallx
+pip install dmitlibx
